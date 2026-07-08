@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - WebGIS Tanjung Riau</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f4f7f6;
+            color: #222;
+        }
+
+        nav {
+            background: #0b5d4b;
+            padding: 18px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav h2 {
+            color: white;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 25px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffd166;
+        }
+
+        .header {
+            background: #376f66;
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .header h1 {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+
+        .container {
+            padding: 60px 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .card {
+            width: 100%;
+            max-width: 700px;
+            background: white;
+            padding: 35px;
+            border-radius: 12px;
+            box-shadow: 0 4px 18px rgba(0,0,0,0.15);
+        }
+
+        .card h2 {
+            color: #0b5d4b;
+            margin-bottom: 25px;
+        }
+
+        .info {
+            margin-bottom: 18px;
+            line-height: 1.6;
+        }
+
+        .info strong {
+            color: #0b5d4b;
+        }
+
+        footer {
+            background: #073f34;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 700px) {
+            nav {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .header h1 {
+                font-size: 30px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <h2>WebGIS Tanjung Riau</h2>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="MAP.html">Map</a></li>
+            <li><a href="KONTAK.html">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <section class="header">
+        <h1>Kontak dan Informasi</h1>
+        <p>Informasi pengembang WebGIS Tanjung Riau</p>
+    </section>
+
+    <section class="container">
+        <div class="card">
+            <h2>Informasi Pengembang</h2>
+
+            <div class="info">
+                <strong>Nama:</strong><br>
+                Suryani Pratiwi
+            </div>
+
+            <div class="info">
+                <strong>Program Studi:</strong><br>
+                Teknologi Geomatika
+            </div>
+
+            <div class="info">
+                <strong>Institusi:</strong><br>
+                Politeknik Negeri Batam
+            </div>
+
+            <div class="info">
+                <strong>Judul WebGIS:</strong><br>
+                WebGIS Fasilitas Umum dan Fasilitas Sosial
+                Kelurahan Tanjung Riau
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 WebGIS Tanjung Riau | Teknologi Geomatika</p>
+    </footer>
+
+</body>
+</html>
